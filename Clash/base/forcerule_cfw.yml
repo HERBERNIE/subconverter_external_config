@@ -75,9 +75,9 @@ cfw-latency-url: http://www.gstatic.com/generate_204
 # - { name: "Final", type: select, proxies: ["Proxy","网易解锁", "DIRECT"] }
 
 #规则
-Rule:
-# - GEOIP,CN,Domestic
-  - MATCH,FINAL
+# Rule:
+#  - GEOIP,CN,Domestic
+#  - MATCH,FINAL
 
 
 # 系统代理跳过列表 cfw-bypass
